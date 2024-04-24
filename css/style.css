@@ -1,1 +1,101 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  width: 60%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.buttons {
+  width: 100%;
+  margin: 1rem auto 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttons button {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.buttons button:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
+}
+
+#button__react {
+  background-color: rgb(97, 219, 251);
+}
+
+#button__angular {
+  background-color: rgb(221, 27, 22);
+}
+
+#button__django {
+  background-color: rgb(68, 183, 139);
+}
+
+#button__laravel {
+  background-color: rgb(245, 82, 71);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  display: none;
+}
+main h1 {
+  margin: 0;
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+main p {
+  margin: 0;
+  padding: 1rem 0;
+  font-weight: 600;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#react {
+  background-color: rgb(97, 219, 251);
+}
+
+#angular {
+  background-color: rgb(221, 27, 22);
+}
+
+#django {
+  background-color: rgb(68, 183, 139);
+}
+
+#laravel {
+  background-color: rgb(245, 82, 71);
+}/*# sourceMappingURL=style.css.map */

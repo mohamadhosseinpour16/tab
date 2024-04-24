@@ -1,0 +1,47 @@
+// variable
+$color-react : rgb(97, 219, 251);
+$color-angular : rgb(221, 27, 22);
+$color-django : rgb(68, 183, 139);
+$color-laravel : rgb(245, 82, 71);
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    width: 100%;
+    display: none;
+
+    h1 {
+        margin: 0;
+        padding: 1rem 0;
+        text-transform: capitalize;
+    }
+
+    p {
+        margin: 0;
+        padding: 1rem 0;
+        font-weight: 600;
+        text-align: justify;
+        line-height: 1.5;
+    }
+}
+
+#react {
+    background-color: $color-react;
+}
+
+#angular {
+    background-color: $color-angular;
+}
+
+#django {
+    background-color: $color-django;
+}
+
+#laravel {
+    background-color: $color-laravel;
+}

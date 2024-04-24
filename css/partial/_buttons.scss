@@ -1,0 +1,46 @@
+// variable
+$color-react : rgb(97, 219, 251);
+$color-angular : rgb(221, 27, 22);
+$color-django : rgb(68, 183, 139);
+$color-laravel : rgb(245, 82, 71);
+
+
+.buttons {
+    width: 100%;
+    margin: 1rem auto 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    & button {
+        border: none;
+        outline: none;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding: 1rem 2.5rem;
+        border-radius: .5rem;
+        transition: .5s;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
+        }
+    }
+}
+
+#button__react {
+    background-color: $color-react;
+}
+
+#button__angular {
+    background-color: $color-angular;
+}
+
+#button__django {
+    background-color: $color-django;
+}
+
+#button__laravel {
+    background-color: $color-laravel;
+}
