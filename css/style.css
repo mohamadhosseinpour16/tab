@@ -98,4 +98,8 @@ main p {
 
 #laravel {
   background-color: rgb(245, 82, 71);
+}
+
+.show {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
